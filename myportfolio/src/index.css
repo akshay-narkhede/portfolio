@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+@layer base {
+  /* body {
+    @apply font-[Nunito];
+  } */
+
+  li {
+    @apply px-6;
+    @apply cursor-pointer;
+  }
+}
