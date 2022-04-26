@@ -14,8 +14,11 @@ const Home = () => {
                   wv knuwv unwv vwn unwv unwv uw nvuwv uwnv uwv uwvvwkwvu yg
               </p>
               <div>
-                    <button className='text-white border-2 px-6 py-3 flex items-center hover:bg-blue-600 hover:border-blue-600'>View
-                      <HiArrowNarrowRight className='ml-2'/>
+                    <button className='group text-white border-2 px-6 py-3 flex items-center hover:bg-blue-600 hover:border-blue-600'>View
+                      <span className='group-hover:px-2 duration-200'>
+                        <HiArrowNarrowRight className='ml-2' />
+                      </span>
+                      
                     </button>
               </div>
           </div>
