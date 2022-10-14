@@ -19,10 +19,10 @@ function Work() {
                       {/* Hover effect */}
                       <div className='opacity-0 group-hover:opacity-100'>
                           <span className='text-2xl font-bold text-white tracking-wider'>
-                              Movie Flix Application
+                                Covid Screens
                           </span>
                           <div className='pt-8 text-center'>
-                              <a href='/'>
+                              <a href='https://covidscreens.netlify.app/' target="_blank">
                                   <button className='text-center rounded-lg px-4 py-2 bg-white text-gray-700 font-bold'>
                                         Demo
                                   </button>
@@ -42,7 +42,7 @@ function Work() {
                               Movie Flix Application
                           </span>
                           <div className='pt-8 text-center'>
-                              <a href='/'>
+                              <a href='https://anflix-movies.web.app/' target="_blank">
                                   <button className='text-center rounded-lg px-4 py-2 bg-white text-gray-700 font-bold'>
                                         Demo
                                   </button>

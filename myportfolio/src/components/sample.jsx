@@ -1,6 +1,6 @@
 import React from 'react'
 
-const About = () => {
+const Sample = () => {
   return (
       <div name = 'about' className='w-full h-screen bg-[#070707] text-gray-300'>
           <div className='flex flex-col justify-center items-center w-full h-full'>
@@ -29,4 +29,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Sample
