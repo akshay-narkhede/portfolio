@@ -1,5 +1,7 @@
 import React,  { useState }  from 'react'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
+import ANLogo from '../assets/ANLogo.png'
+
 
 function Navbar() {
     const [toggleNav, setNav] = useState(false)
@@ -8,7 +10,7 @@ function Navbar() {
     return (
         <div className='fixed w-full h-[80px] flex justify-between bg-slate-800 text-gray-300 items-center'>
             <div className='px-5'>
-                AN
+                    <img src={ANLogo} alt="AN" width="60" height="40"/>
             </div>
             {/* Menu */}
             <div>
