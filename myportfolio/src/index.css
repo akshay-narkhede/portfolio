@@ -23,6 +23,8 @@
 }
 
 .content-div:hover {
-  background-image: linear-gradient(to right, #8ba7e4, #6d82df) !important;
+  background-image: linear-gradient(to right, #577cb3, hsla(242, 64%, 51%, 0.4)) !important;
+  /* background-image: linear-gradient(to right, #7bbaf4, #a6b2ef) !important; */
+
   /* filter: brightness(40%); */
 }

@@ -6,7 +6,7 @@ function Navbar() {
     const handleClick =()=> setNav(!toggleNav)
     // https://www.color-name.com/matte-black.color
     return (
-        <div className='fixed w-full h-[80px] flex justify-between bg-[#020202] text-gray-300 items-center'>
+        <div className='fixed w-full h-[80px] flex justify-between bg-slate-800 text-gray-300 items-center'>
             <div className='px-5'>
                 AN
             </div>
@@ -15,8 +15,8 @@ function Navbar() {
                 <ul className='hidden md:flex'>
                     <li>Home</li>
                     <li>About</li>
-                    <li>Experiance</li>
-                    <li>Work</li>
+                    <li>Experience</li>
+                    <li>Projects</li>
                     <li>Contact</li>
                 </ul>
             </div>
@@ -30,22 +30,22 @@ function Navbar() {
                 <ul>
                     <li className='py-6 text-3xl'>Home</li>
                     <li className='py-6 text-3xl'>About</li>
-                    <li className='py-6 text-3xl'>Skills</li>
-                    <li className='py-6 text-3xl'>Work</li>
+                    <li className='py-6 text-3xl'>Experience</li>
+                    <li className='py-6 text-3xl'>Projects</li>
                     <li className='py-6 text-3xl'>Contact</li>
                 </ul>
             </div>
 
             {/* Side links */}
-            <div className='hidden md:flex fixed flex-col top-[35%] left-0'>
+            <div className='flex fixed flex-col top-[50%] right-0'>
                 <ul>
-                    <li className='w-[160px] h-[50px] flex justify-between items-center bg-[#0077b5] ml-[-100px] hover:ml-[-10px] duration-300'>
+                    <li className='w-[60px] h-[50px] flex justify-between items-center bg-[#0077b5] ml-[0px] duration-300'>
                         <a  className='flex justify-between items-center w-full text-gray-300'
-                            href='https://linkedin.com/in/akshay-narkhede' >LinkedIn <FaLinkedin /></a>
+                            href='https://linkedin.com/in/akshay-narkhede' target="_blank"> <FaLinkedin size={100}/></a>
                     </li>
-                    <li className='w-[160px] h-[50px] flex justify-between items-center bg-[#333333] ml-[-100px] hover:ml-[-10px] duration-300'>
+                    <li className='w-[60px] h-[50px] flex justify-between items-center bg-[#333333] ml-[0px] duration-300'>
                         <a  className='flex justify-between items-center w-full text-gray-300'
-                            href='https://github.com/akshay1311'>Github <FaGithub /></a>
+                            href='https://github.com/akshay1311' target="_blank"> <FaGithub size={100}/></a>
                     </li>
                 </ul>
 

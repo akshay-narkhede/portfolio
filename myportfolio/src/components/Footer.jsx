@@ -2,8 +2,12 @@ import React from 'react'
 
 const Footer = () => {
   return (
-            <div class="flex flex-col h-screen justify-between text-center">
-              <div class="sticky top-[100vh] bg-blue-500">Designed by Akshay &#169;{new Date().getFullYear()} </div>
+            <div className="flex flex-col justify-between text-center">
+              <div className="sticky top-[100vh] bg-slate-800">
+                <div style={{color:'white'}}>
+                  Designed by Akshay &#169;{new Date().getFullYear()} 
+                </div>
+              </div>
             </div>
 
   )

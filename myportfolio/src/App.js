@@ -5,6 +5,7 @@ import Work from "./components/Work";
 import Work2 from "./components/Work2";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
       <Home/>
       <About />
       <Experience/>
-{/*<Work/>*/}
-      <Work2/>
+      <Work/>
+      {/*<Work2/>*/}
+      <Contact/>
       <Footer/>
     </div>
   );
