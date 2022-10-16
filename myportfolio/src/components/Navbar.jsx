@@ -47,7 +47,7 @@ function Navbar() {
                     </li>
                     <li className='w-[60px] h-[50px] flex justify-between items-center bg-[#333333] ml-[0px] duration-300'>
                         <a  className='flex justify-between items-center w-full text-gray-300'
-                            href='https://github.com/akshay1311' target="_blank"> <FaGithub size={100}/></a>
+                            href='https://github.com/akshay-narkhede' target="_blank"> <FaGithub size={100}/></a>
                     </li>
                 </ul>
 

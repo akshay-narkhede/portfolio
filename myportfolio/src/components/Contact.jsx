@@ -30,7 +30,7 @@ const Contact = () => {
                             </li>
                             <li className='flex justify-between items-center my-4'>
                                 <a  className='flex justify-between items-center w-full text-gray-300'
-                                    href='https://github.com/akshay1311' target="_blank"> 
+                                    href='https://github.com/akshay-narkhede' target="_blank"> 
                                         <FaGithub/> <p style={{float:"left",fontSize: "small"}}>github.com/akshay1311</p>
                                     </a>
                             </li>
