@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Work from "./components/Work";
-import Work2 from "./components/Work2";
+import Work_ from "./components/Work_";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
@@ -14,8 +14,8 @@ function App() {
       <Home/>
       <About />
       <Experience/>
-      <Work/>
-      {/*<Work2/>*/}
+      {/*<Work/>*/}
+      <Work_/>
       <Contact/>
       <Footer/>
     </div>

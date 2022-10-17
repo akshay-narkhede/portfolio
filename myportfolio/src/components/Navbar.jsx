@@ -8,7 +8,7 @@ function Navbar() {
     const handleClick =()=> setNav(!toggleNav)
     // https://www.color-name.com/matte-black.color
     return (
-        <div className='fixed w-full h-[80px] flex justify-between bg-slate-800 text-gray-300 items-center'>
+        <div className='fixed w-full h-[80px] flex justify-between bg-slate-800 text-gray-300 items-center z-40'>
             <div className='px-5'>
                     <img src={ANLogo} alt="AN" width="60" height="40"/>
             </div>
@@ -39,7 +39,7 @@ function Navbar() {
             </div>
 
             {/* Side links */}
-            <div className='flex fixed flex-col top-[50%] right-0'>
+            <div className='flex fixed flex-col top-[50%] right-0 z-40'>
                 <ul>
                     <li className='w-[60px] h-[50px] flex justify-between items-center bg-[#0077b5] ml-[0px] duration-300'>
                         <a  className='flex justify-between items-center w-full text-gray-300'
