@@ -11,8 +11,7 @@ const Home = () => {
               {/* <h2 className='text-3xl sm:text-4xl font-bold text-[#F3F9FC]'>I'm a Full Stack Developer.</h2> */}
               <h2 className='text-3xl sm:text-4xl font-bold text-[#F3F9FC] leading-loose'>I build web and mobile applications.</h2>
               <p className='text-[#F3F9FC] py-4 max-w-[800px] leading-loose'>
-                    I'm a software engineer specializing in building (and occasionally designing) exceptional digital experiences. 
-                    Currently, I'm a graduate student at Indiana University Bloomington for Masters in Computer Science.
+                     I'm a software engineer specializing in building and designing exceptional digital experiences. Currently, I'm a graduate student at Indiana University Bloomington for Masters in Computer Science
                     <br/>
               </p>
               <div className='py-8'>
