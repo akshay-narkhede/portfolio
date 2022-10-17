@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ccb1c67b.css",
-    "main.js": "/portfolio/static/js/main.80f086a3.js",
+    "main.css": "/portfolio/static/css/main.feb957d0.css",
+    "main.js": "/portfolio/static/js/main.0b14f493.js",
     "static/media/wallpse.png": "/portfolio/static/media/wallpse.13e4c22d497f8dc3b909.png",
     "static/media/edinfinity.png": "/portfolio/static/media/edinfinity.d47ddf1611aca3e334c4.png",
     "static/media/anflixImage.PNG": "/portfolio/static/media/anflixImage.1dbb33deb10ebd39cd38.PNG",
@@ -9,11 +9,11 @@
     "static/media/covidScreens.jpg": "/portfolio/static/media/covidScreens.9d1d34d870cc3af01b57.jpg",
     "static/media/p2p.jpg": "/portfolio/static/media/p2p.3864a76d93a4de069f35.jpg",
     "index.html": "/portfolio/index.html",
-    "main.ccb1c67b.css.map": "/portfolio/static/css/main.ccb1c67b.css.map",
-    "main.80f086a3.js.map": "/portfolio/static/js/main.80f086a3.js.map"
+    "main.feb957d0.css.map": "/portfolio/static/css/main.feb957d0.css.map",
+    "main.0b14f493.js.map": "/portfolio/static/js/main.0b14f493.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccb1c67b.css",
-    "static/js/main.80f086a3.js"
+    "static/css/main.feb957d0.css",
+    "static/js/main.0b14f493.js"
   ]
 }
