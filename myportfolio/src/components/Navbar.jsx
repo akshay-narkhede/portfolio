@@ -30,7 +30,9 @@ function Navbar() {
             {/* Mobile menu */}
             <div className={!toggleNav ? 'hidden': 'absolute top-0 left-0 w-full h-screen bg-[#020202] flex flex-col items-center justify-center'}>
                 <ul>
-                    <li className='py-6 text-3xl'>Home</li>
+                    <li className='py-6 text-3xl'>
+                          <a href="#home">Home</a>
+                    </li>
                     <li className='py-6 text-3xl'>About</li>
                     <li className='py-6 text-3xl'>Experience</li>
                     <li className='py-6 text-3xl'>Projects</li>
