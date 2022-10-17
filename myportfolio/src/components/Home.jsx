@@ -20,7 +20,6 @@ const Home = () => {
                       <span className='group-hover:px-2 duration-200'>
                             <a href="#next"><HiArrowNarrowRight className='ml-2' /></a>
                       </span>
-                      
                     </button>
               </div>
           </div>
