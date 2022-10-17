@@ -9,10 +9,9 @@ const About = () => {
                       <p className='text-4xl font-bold inline border-b-4 border-blue-600'>About</p>
                   </div>
               </div>
-              <div></div>
               <div className='max-w-[1000px] py-8 px-20 w-full grid sm:grid-cols-2 gap-8 px-8'>
                   <div className='sm:text-right text-2xl font-bold'>
-                      <p>Hi. I'm Akshay, nice to meet you. Please take a look around.</p>
+                      <p>Hey hi again, nice to meet you. Please take a look around.</p>
                   </div>
                   <div className='py-8 sm:py-0'>
                       <p>

@@ -19,7 +19,7 @@ function Navbar() {
                     <li>About</li>
                     <li>Experience</li>
                     <li>Projects</li>
-                    <li>Contact</li>
+                    <li>Contact Me</li>
                 </ul>
             </div>
 
