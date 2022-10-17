@@ -15,7 +15,7 @@ const About = () => {
                   </div>
                   <div className='py-8 sm:py-0'>
                       <p>
-                            Prior to starting graduate studies, I worked for around 5 years as a Software Developer with Financepeer.
+                            Prior to starting graduate studies, I worked for around 5 years as a Software Developer with Financepeer, Mumbai, IN.
                             As the first employee in the organization, I have had the opportunity to work on multiple products from scratch and wear multiple hats for my role. With 10 people in company we were selected in Google Launchpad Accelerator India event in 2019 where we received great mentorship from Google.
                       </p>
                   </div>
