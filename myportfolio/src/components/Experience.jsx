@@ -32,7 +32,7 @@ function Experience() {
         setModalInfo("")
     }
     return (
-        <div name='exp' className='w-full h-screen bg-[#070707] text-gray-300 inline-flex' style={{display:"inline-block"}}>
+        <div name='exp' id="experience" className='w-full h-screen bg-[#070707] text-gray-300 inline-flex' style={{display:"inline-block"}}>
             <div className='flex flex-col justify-center items-center w-full h-full'>
                 <div className='max-w-[1000px] w-full px-8 grid grid-cols-2 bg-[#070707]'>
                     <div className='pb-8'>

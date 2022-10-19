@@ -47,7 +47,7 @@ async function handleClear(title, info){
 
 
   return (
-      <div name = 'work' className='w-full h-screen bg-[#070707] text-gray-300'  style={{display:"table"}}>
+      <div name = 'work' id="projects" className='w-full h-screen bg-[#070707] text-gray-300'  style={{display:"table"}}>
             <div className='flex flex-col justify-center items-center w-full h-full'>
               <div className='max-w-[1000px] w-full px-8 grid grid-cols-2 gap-8'>
                   <div className='pb-8'>

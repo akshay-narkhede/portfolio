@@ -1,7 +1,7 @@
 import React,  { useState }  from 'react'
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa';
 import ANLogo from '../assets/ANLogo.png'
-
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 function Navbar() {
     const [toggleNav, setNav] = useState(false)
@@ -10,17 +10,24 @@ function Navbar() {
     return (
         <div className='fixed w-full h-[80px] flex justify-between bg-slate-800 text-gray-300 items-center z-40'>
             <div className='px-5'>
+                <a href='#home'>
                     <img src={ANLogo} alt="AN" width="60" height="40"/>
+                </a>
             </div>
             {/* Menu */}
-            <div>
-                <ul className='hidden md:flex'>
+            <div className='hidden md:flex'>
+                <AnchorLink href='#home' className='px-4'>Home</AnchorLink>
+                <AnchorLink href='#about' className='px-4'>About</AnchorLink>
+                <AnchorLink href='#experience' className='px-4'>Experience</AnchorLink>
+                <AnchorLink href='#projects' className='px-4'>Projects</AnchorLink>
+                <AnchorLink href='#contact' className='px-4'>Contact Me</AnchorLink>
+                {/* <ul className='hidden md:flex'>
                     <li>Home</li>
                     <li>About</li>
                     <li>Experience</li>
                     <li>Projects</li>
                     <li>Contact Me</li>
-                </ul>
+                </ul> */}
             </div>
 
             {/* Hamburger */}
@@ -29,7 +36,14 @@ function Navbar() {
             </div>
             {/* Mobile menu */}
             <div className={!toggleNav ? 'hidden': 'absolute top-0 left-0 w-full h-screen bg-[#020202] flex flex-col items-center justify-center'}>
-                <ul>
+                
+                <AnchorLink href='#home' className='py-4 text-3xl' onClick={handleClick}>Home</AnchorLink>
+                <AnchorLink href='#about' className='py-4 text-3xl' onClick={handleClick}>About</AnchorLink>
+                <AnchorLink href='#experience' className='py-4 text-3xl' onClick={handleClick}>Experience</AnchorLink>
+                <AnchorLink href='#projects' className='py-4 text-3xl' onClick={handleClick}>Projects</AnchorLink>
+                <AnchorLink href='#contact' className='py-4 text-3xl' onClick={handleClick}>Contact Me</AnchorLink>
+                
+                {/* <ul>
                     <li className='py-6 text-3xl'>
                           <a href="#home">Home</a>
                     </li>
@@ -37,7 +51,7 @@ function Navbar() {
                     <li className='py-6 text-3xl'>Experience</li>
                     <li className='py-6 text-3xl'>Projects</li>
                     <li className='py-6 text-3xl'>Contact</li>
-                </ul>
+                </ul> */}
             </div>
 
             {/* Side links */}
