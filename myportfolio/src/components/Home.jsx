@@ -21,9 +21,7 @@ const Home = () => {
                       </span>
                     </button>
               </div>
-          </div>
-          <div id="about"></div>
-    </div>
+          </div>    </div>
   )
 }
 
