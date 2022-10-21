@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.96dee667.css",
-    "main.js": "/portfolio/static/js/main.d7256807.js",
+    "main.css": "/portfolio/static/css/main.160b1092.css",
+    "main.js": "/portfolio/static/js/main.cf860db4.js",
     "static/media/home.gif": "/portfolio/static/media/home.58aa495099fe4fd95fcc.gif",
     "static/media/wallpse.png": "/portfolio/static/media/wallpse.13e4c22d497f8dc3b909.png",
     "static/media/edinfinity.png": "/portfolio/static/media/edinfinity.d47ddf1611aca3e334c4.png",
@@ -10,11 +10,11 @@
     "static/media/covidScreens.jpg": "/portfolio/static/media/covidScreens.9d1d34d870cc3af01b57.jpg",
     "static/media/p2p.jpg": "/portfolio/static/media/p2p.3864a76d93a4de069f35.jpg",
     "index.html": "/portfolio/index.html",
-    "main.96dee667.css.map": "/portfolio/static/css/main.96dee667.css.map",
-    "main.d7256807.js.map": "/portfolio/static/js/main.d7256807.js.map"
+    "main.160b1092.css.map": "/portfolio/static/css/main.160b1092.css.map",
+    "main.cf860db4.js.map": "/portfolio/static/js/main.cf860db4.js.map"
   },
   "entrypoints": [
-    "static/css/main.96dee667.css",
-    "static/js/main.d7256807.js"
+    "static/css/main.160b1092.css",
+    "static/js/main.cf860db4.js"
   ]
 }
