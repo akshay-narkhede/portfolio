@@ -20,7 +20,7 @@ function Navbar() {
                 <AnchorLink href='#about' className='px-4'>About</AnchorLink>
                 <AnchorLink href='#experience' className='px-4'>Experience</AnchorLink>
                 <AnchorLink href='#projects' className='px-4'>Projects</AnchorLink>
-                <AnchorLink href='#contact' className='px-4'>Contact Me</AnchorLink>
+                <AnchorLink href='#contact' className='px-4'>Contact</AnchorLink>
                 {/* <ul className='hidden md:flex'>
                     <li>Home</li>
                     <li>About</li>
