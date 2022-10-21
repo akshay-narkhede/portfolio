@@ -63,16 +63,6 @@ function Experience() {
                             <Typography variant="h6" className="mb-2 truncate tracking-wide underline decoration-dotted ">
                                 Role : Lead Software Developer
                             </Typography>
-                            {/* <div className="flex gap-2">
-                                <Chip color="blue" variant="filled" value="chip filled" />
-                                <Chip color="red" variant="gradient" value="chip gradient" />
-                            </div> */}
-                            {/* <div class="container mx-auto my-12 p-12 bg-gray-100 flex flex-row"></div>
-                              <div class="flex justify-center items-center m-1 px-2 py-1 rounded-full bg-orange-700 text-base text-white font-medium">
-                                    <i class="fa fa-comment mr-1"></i>
-                                    <div class="flex-initial max-w-full leading-none text-xs font-normal">名称
-                                </div>
-                                </div> */}
                         </CardBody>
                         <CardFooter divider className="flex items-center justify-between py-0 bg-slate-800 text-gray-300 items-center">
                             <Typography variant="small">

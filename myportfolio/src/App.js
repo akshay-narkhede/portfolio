@@ -6,6 +6,8 @@ import Work_ from "./components/Work_";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
+import Note from "./components/Note";
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
             {/*<Work/>*/}
             <Work_/>
             <Contact/>
+            <Note/>
             <Footer/>
           </div>
   );
