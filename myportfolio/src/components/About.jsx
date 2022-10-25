@@ -10,8 +10,11 @@ const About = () => {
                   </div>
               </div>
               <div className='max-w-[1000px] py-8 px-20 w-full grid sm:grid-cols-2 gap-8 px-8'>
-                  <div className='sm:text-right text-2xl font-bold'>
-                      <p>Hey hi again, nice to meet you. Please take a look around.</p>
+                  <div className='sm:text-right text-xl font-bold'>
+                      {/* <p>Hey hi again, nice to meet you. Please take a look around.</p> */}
+                      {/* <p>I am a full-stack developer.</p> */}
+                      <p>My area of interest include web & mobile development, machine learning. 
+I enjoy experimenting with various technology as long as it enhances my work and gives me a sense of accomplishment.</p>
                   </div>
                   <div className='py-8 sm:py-0'>
                       <p>

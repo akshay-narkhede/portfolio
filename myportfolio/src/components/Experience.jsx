@@ -57,12 +57,16 @@ function Experience() {
                                       </Tooltip>
                                   </a>
                             </Typography>
+                            <Typography variant="h6" className="mb-2 tracking-wide" style={{fontFamily:"Proxima Nova"}}>
+                                Django Python ReactJS PostgreSQL
+                            </Typography>
                             <Typography>
                                 Impactp2p is a peer to peer lending platform connecting individual borrowers to lenders digitally.
                             </Typography>
                             <Typography variant="h6" className="mb-2 truncate tracking-wide underline decoration-dotted ">
                                 Role : Lead Software Developer
                             </Typography>
+                            
                         </CardBody>
                         <CardFooter divider className="flex items-center justify-between py-0 bg-slate-800 text-gray-300 items-center">
                             <Typography variant="small">
@@ -105,12 +109,16 @@ function Experience() {
                                       </Tooltip>
                                   </a>
                             </Typography>
+                            <Typography variant="h6" className="mb-2 tracking-wide" style={{fontFamily:"Proxima Nova"}}>
+                               ReactJS PostgreSQL AWS Services Django 
+                            </Typography>
                             <Typography>
                                   EDinfinity is a one stop solution for availing top online courses from India's best content creators.
                             </Typography>
                             <Typography variant="h6" className="mb-2 tracking-wide underline decoration-dotted">
                                 Role : Lead Software Developer
                             </Typography>
+                            
                         </CardBody>
                         <CardFooter divider className="flex items-center justify-between py-0 bg-slate-800 text-gray-300 items-center">
                             <Typography variant="small">
@@ -210,7 +218,7 @@ function Experience() {
                             <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
                                 {/*header*/}
                                 <div className="flex items-start justify-between p-5 border-b border-solid border-slate-200 rounded-t">
-                                    <h3 className="text-3xl font-semibold">
+                                    <h3 className="text-3xl font-semibold text-slate-800">
                                         {ModalTitle}
                                     </h3>
                                     <button
