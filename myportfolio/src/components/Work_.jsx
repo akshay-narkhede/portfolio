@@ -12,6 +12,8 @@ import {
     Typography,
   } from "@material-tailwind/react";
   import { Tooltip, Button } from "@material-tailwind/react";
+import homeGif from '../assets/home.gif'
+
 
 // onClick={() => handleClick("AnFlix", ["A movies listing webpage from TMDB APIs with all general categories of movies and TV shows with play trailers of selected movie names using node package module."] )}
 
@@ -47,7 +49,7 @@ async function handleClear(title, info){
 
 
   return (
-      <div name = 'work' id="projects" className='w-full h-screen bg-[#070707] text-gray-300'  style={{display:"table"}}>
+      <div name = 'work' id="projects" className='w-full h-screen bg-[#070707] text-gray-300' style={{display:"table", backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),url(${homeGif})`,backgroundPosition : 'center',  backgroundRepeat : 'no-repeat', backgroundSize: 'cover'}}>
             <div className='flex flex-col justify-center items-center w-full h-full'>
               <div className='max-w-[1000px] w-full px-8 grid grid-cols-2 gap-8'>
                   <div className='pb-8'>

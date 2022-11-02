@@ -28,3 +28,30 @@
 
   /* filter: brightness(40%); */
 }
+
+.effect-shine:hover {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: effect-shine 3s infinite;
+  font-style: bold;
+  color: #FF4A4A;
+  cursor : pointer;
+  font-size: 1.4rem;
+
+}
+
+
+.effect-note:hover {
+  -webkit-mask-image: linear-gradient(-75deg, rgba(0,0,0,.6) 30%, #000 50%, rgba(0,0,0,.6) 70%);
+  -webkit-mask-size: 200%;
+  animation: effect-shine 3s infinite;
+  font-style: bold;
+  color: white;
+  cursor : pointer;
+  font-size: 1.05rem;
+}
+
+
+.wobble:hover{
+    upscale : 0.5s 1
+}

@@ -6,20 +6,22 @@ import Work_ from "./components/Work_";
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
-import Note from "./components/Note";
+//import Note from "./components/Note";
+import Skills from "./components/Skills";
+import homeGif from './assets/home.gif'
+
 
 
 function App() {
   return (
         <div>
             <Navbar />
-            <Home/>
+            <Home />
             <About />
             <Experience/>
-            {/*<Work/>*/}
+            <Skills/>
             <Work_/>
             <Contact/>
-            <Note/>
             <Footer/>
           </div>
   );

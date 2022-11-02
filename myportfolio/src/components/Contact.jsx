@@ -1,10 +1,11 @@
 import React from 'react'
 import {FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import homeGif from '../assets/home.gif'
 
 
 const Contact = () => {
   return (
-      <div name = 'contact' id="contact" className='w-full h-screen bg-[#070707] text-gray-300'>
+      <div name = 'contact' id="contact" className='w-full h-screen bg-[#070707] text-gray-300' style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),url(${homeGif})`,backgroundPosition : 'center',  backgroundRepeat : 'no-repeat', backgroundSize: 'cover'}}>
           <div className='flex flex-col justify-center items-center w-full h-full'>
               <div className='max-w-[1000px] w-full px-20 grid grid-cols-2 gap-8'>
                   <div className=''>
@@ -38,7 +39,14 @@ const Contact = () => {
                     </ul>
                   </div>
               </div>
+              <div className='text-white py-8 effect-note b-0'>
+                      <p>
+                            This portfolio website is created using ReactJS & Tailwind CSS.
+                      </p>
+              </div>
+
           </div>
+
       </div>
   )
 }

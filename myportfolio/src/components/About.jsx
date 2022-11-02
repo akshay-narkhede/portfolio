@@ -1,8 +1,10 @@
 import React from 'react'
+import homeGif from '../assets/home.gif'
+
 
 const About = () => {
   return (
-      <div name = 'about' id="about" className='w-full h-screen bg-[#070707] text-gray-300'>
+      <div name = 'about' id="about" className='w-full h-screen bg-[#070707] text-gray-300' style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),url(${homeGif})`,backgroundPosition : 'center',  backgroundRepeat : 'no-repeat', backgroundSize: 'cover'}}>
           <div className='flex flex-col justify-center items-center w-full h-full'>
               <div className='max-w-[1000px] w-full px-8 grid grid-cols-2 gap-8'>
                   <div className=''>

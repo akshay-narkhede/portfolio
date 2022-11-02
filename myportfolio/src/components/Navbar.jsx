@@ -19,6 +19,7 @@ function Navbar() {
                 <AnchorLink href='#home' className='px-4'>Home</AnchorLink>
                 <AnchorLink href='#about' className='px-4'>About</AnchorLink>
                 <AnchorLink href='#experience' className='px-4'>Experience</AnchorLink>
+                <AnchorLink href='#skills' className='px-4'>Skills</AnchorLink>
                 <AnchorLink href='#projects' className='px-4'>Projects</AnchorLink>
                 <AnchorLink href='#contact' className='px-4'>Contact</AnchorLink>
                 {/* <ul className='hidden md:flex'>
@@ -41,7 +42,7 @@ function Navbar() {
                 <AnchorLink href='#about' className='py-4 text-3xl' onClick={handleClick}>About</AnchorLink>
                 <AnchorLink href='#experience' className='py-4 text-3xl' onClick={handleClick}>Experience</AnchorLink>
                 <AnchorLink href='#projects' className='py-4 text-3xl' onClick={handleClick}>Projects</AnchorLink>
-                <AnchorLink href='#contact' className='py-4 text-3xl' onClick={handleClick}>Contact Me</AnchorLink>
+                <AnchorLink href='#contact' className='py-4 text-3xl' onClick={handleClick}>Contact</AnchorLink>
                 
                 {/* <ul>
                     <li className='py-6 text-3xl'>

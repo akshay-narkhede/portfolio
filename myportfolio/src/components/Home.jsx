@@ -5,7 +5,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Home = () => {
   return (
-    <div name = 'home' id="home" className='w-full h-screen bg-[#070707]' style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url(${homeGif})`,backgroundPosition : 'center',  backgroundRepeat : 'no-repeat', backgroundSize: 'cover'}}>
+    <div name = 'home' id="home" className='w-full h-screen bg-[#070707]' style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),url(${homeGif})`,backgroundPosition : 'center',  backgroundRepeat : 'no-repeat', backgroundSize: 'cover'}}>
           {/* Container */}
           <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
             <div>
