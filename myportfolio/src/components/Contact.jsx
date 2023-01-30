@@ -5,7 +5,7 @@ import homeGif from '../assets/home.gif'
 
 const Contact = () => {
   return (
-      <div name = 'contact' id="contact" className='w-full h-screen bg-[#070707] text-gray-300' style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),url(${homeGif})`,backgroundPosition : 'center',  backgroundRepeat : 'no-repeat', backgroundSize: 'cover'}}>
+      <div name = 'contact' id="contact" className='w-full h-screen bg-[#070707] text-gray-300' style={{ backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),url(${homeGif})`,backgroundPosition : 'center',  backgroundRepeat : 'no-repeat', backgroundSize: 'cover'}}>
           <div className='flex flex-col justify-center items-center w-full h-full'>
               <div className='max-w-[1000px] w-full px-20 grid grid-cols-2 gap-8'>
                   <div className=''>

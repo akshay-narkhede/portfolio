@@ -34,7 +34,7 @@ function Experience() {
         setModalInfo("")
     }
     return (
-        <div name='exp' id="experience" className='w-full h-screen bg-[#070707] text-gray-300 inline-flex' style={{display:"inline-block", backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),url(${homeGif})`,backgroundPosition : 'center',  backgroundRepeat : 'no-repeat', backgroundSize: 'cover'}}>
+        <div name='exp' id="experience" className='w-full h-screen bg-[#070707] text-gray-300 inline-flex' style={{display:"inline-block", backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),url(${homeGif})`,backgroundPosition : 'center',  backgroundRepeat : 'no-repeat', backgroundSize: 'cover'}}>
             <div className='flex flex-col justify-center items-center w-full h-full'>
                 <div className='max-w-[1000px] w-full px-8 grid grid-cols-2 bg-[#070707]'>
                     <div className='pb-8'>
